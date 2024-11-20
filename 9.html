@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Registration Form</title>
+</head>
+<body>
+<h2>Registration Form</h2>
+<form action="/submit_registration" method="post">
+<!-- Username Field -->
+<label>Username:</label>
+<input type="text" name="username">
+<br><br>
+<!-- Email Field -->
+<label>Email:</label>
+<input type="text" name="email">
+<br><br>
+<!-- Password Field -->
+<label>Password:</label>
+<input type="text" name="password">
+<br><br>
+<!-- Gender Radio Buttons -->
+
+<label>Gender:</label>
+<input type="radio" name="gender" value="male"> Male
+<input type="radio" name="gender" value="female"> Female
+<input type="radio" name="gender" value="other"> Other
+<br><br>
+<!-- Hobbies Checkboxes -->
+<label>Hobbies:</label>
+<input type="checkbox" name="hobbies" value="reading"> Reading
+<input type="checkbox" name="hobbies" value="sports"> Sports
+<input type="checkbox" name="hobbies" value="music"> Music
+<input type="checkbox" name="hobbies" value="travel"> Travel
+<br><br>
+<!-- Country Dropdown Menu -->
+<label>Country:</label>
+<select name="country">
+<option value="usa">United States</option>
+<option value="uk">United Kingdom</option>
+<option value="canada">Canada</option>
+<option value="australia">Australia</option>
+</select>
+<br><br>
+<!-- Terms and Conditions Checkbox -->
+<input type="checkbox" name="terms"> I agree to the terms and conditions
+<br><br>
+<!-- Submit Button -->
+<input type="submit" value="Register">
+</form>
+</body>
+</html>
